@@ -1,7 +1,4 @@
-# CareerLens — AI Resume Analyzer
-CareerLens is a full-stack resume analyzer built with a React/Vite frontend and a FastAPI Python backend.
-## Run locally
-CareerLens uses the included React/Vite frontend and Python backend.
+# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -17,13 +14,3 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-## Features
-Upload a PDF resume, optionally provide a target job description, and receive a validated Gemini-powered ATS analysis.
-# AI-Projects
-A curated collection of cutting-edge AI and Large Language Model (LLM) applications, intelligent agents, and full-stack generative AI projects.
-
-## API
-`POST /api/analyze-resume` accepts a multipart `resume` PDF and an optional `job_description` field.
-
-## Security
-Secrets, virtual environments, build output, and Python caches are excluded from version control. Never commit your API key.
